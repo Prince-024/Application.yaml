@@ -9,15 +9,15 @@ plugins:
       - "ytsearch:\"%ISRC%\"" 
       - "ytsearch:%QUERY%" 
     sources:
-      spotify: false # Enable Spotify source
+      spotify: true # Enable Spotify source
       applemusic: false # Enable Apple Music source
       deezer: false # Enable Deezer source
       yandexmusic: false # Enable Yandex Music source
       flowerytts: false # Enable Flowery TTs source
       youtube: true 
     spotify:
-      clientId: "your client id"
-      clientSecret: "your client secret"
+      clientId: "15ba788638e2453d83f3ae8d6efebb9b"
+      clientSecret: "a1ffcc01db2d4edc905e120db5b53b3d"
       countryCode: "US" 
       playlistLoadLimit: 6 # 
       albumLoadLimit: 6 
